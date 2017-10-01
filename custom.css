@@ -1,0 +1,259 @@
+/* Bigger main container - more room for code
+=========================================== */
+.container {
+  width: 90%;
+}
+
+/* Main font color
+========================================== */
+body,
+span,
+code,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+.fa,
+.btn-default,
+pre {
+  color: #586e75 !important;
+}
+
+.input_prompt {
+  color: #6c71c4 !important;
+}
+
+/* Main background-color
+========================================== */
+
+/* Main tan color */
+#terminal_list_header,
+.CodeMirror-scroll,
+.CodeMirror-gutter,
+.list_placeholder,
+#ipython-main-app,
+.modal-content,
+div.input_area,
+body #header,
+.list_header,
+.list_item,
+#logout,
+option,
+#site {
+  background-color: #fdf6e3 !important;
+}
+
+/* Secundary tan color - darken */
+.nav-tabs > li.active > a:focus .notification_widget,
+#menu-new-notebook-submenu,
+.nav-tabs > li.active > a,
+#texteditor-backdrop,
+#notebook-container,
+.toolbar-btn-label,
+.navbar-default,
+.toolbar select,
+.dropdown-menu,
+#selector-menu,
+.toolbar label,
+.panel-heading,
+.form-control,
+.btn-default,
+#insert_menu,
+#kernel_menu,
+#help_menu,
+#file_menu,
+#file-menu,
+#edit-menu,
+#edit_menu,
+#view-menu,
+#view_menu,
+#cell_menu,
+#mode-menu,
+#new-menu,
+.text_cell_render pre {
+  background-color: #d9d2c2 !important;
+}
+
+code {
+  background-color: #eee8d5 !important;
+}
+
+/* Notifications */
+#notification_trusted {
+  background-color: #cb4b16 !important;
+}
+#notification_trusted span {
+  color: #fdf6e3 !important;
+}
+
+#notification_notebook {
+  background-color: #859900 !important;
+}
+#notification_notebook span {
+  color: #fdf6e3 !important;
+}
+
+#notification_kernel {
+  background-color: #d33682 !important;
+}
+
+#notification_kernel span {
+  color: #fdf6e3 !important;
+}
+
+/* Cells
+========================================= */
+div.input_area {
+  border: 1px solid #586e75;
+  border-radius: 0.25rem;
+}
+
+/* Buttons
+========================================= */
+.btn-primary,
+.btn-default,
+#menubar .navbar-collapse,
+#cell_type,
+.form-control {
+  border: 1px solid #586e75;
+  border-radius: 0.25rem;
+}
+
+/* Buttons on active
+======================================== */
+.active#toggle_spell_check {
+  background-color: #fdf6e3 !important;
+}
+.active#toggle_spell_check span {
+  color: #859900 !important;
+  background-color: #fdf6e3 !important;
+}
+
+/* Hover colors
+======================================== */
+.toolbar-btn-label:hover {
+  background: none;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.notification_widget:hover,
+#selector-menu a:hover,
+.btn-default:hover,
+#new-menu a:hover {
+  background-color: #fdf6e3 !important;
+}
+
+.nav-tabs > li.active > a:hover,
+#notebook_name:hover,
+.list_item:hover,
+#logout:hover {
+  background-color: #d9d2c2 !important;
+}
+
+.dropdown a.dropdown-toggle:hover {
+  background-color: #fdf6e3 !important;
+  color: #586e75 !important;
+}
+
+#toggle_spell_check:hover span {
+  background-color: #fdf6e3 !important;
+}
+
+/* Code colors
+=============================== */
+
+.cm-keyword {
+  color: #dc322f !important;
+}
+.cm-variable {
+  color: #787882 !important;
+}
+.cm-property {
+  color: #268bd2 !important;
+}
+.cm.string {
+  color: #2aa198 !important;
+}
+.cm-comment {
+  color: #93a1a1 !important;
+}
+
+/* Output
+================================= */
+div.out_prompt_overlay:hover {
+  /* background: none; */
+  background-color: #d9d2c2;
+}
+
+/* Navbar
+================================== */
+#menubar .navbar {
+  border-radius: 0.5rem;
+}
+
+#menubar-container {
+  padding: 1rem;
+}
+
+/* Margins, paddings, spacing
+================================== */
+.output_wrapper {
+  margin-top: 1rem;
+}
+
+/* Terminal 
+===================================*/
+
+/* Terminal background */
+
+.terminal-app .terminal .xterm-rows {
+  width: 100%;
+  background-color: #fdf6e3 !important;
+}
+
+.xterm-color-10 {
+  color: #268bd2 !important;
+}
+
+/* git (master) */
+.xterm-color-4 {
+  color: #6c71c4 !important;
+}
+
+/* git checkmark */
+.xterm-color-2 span {
+  color: #859900 !important;
+}
+
+/* git x */
+.xterm-color-1 span {
+  color: #dc322f !important;
+}
+
+/* git arrow around user */
+.xterm-normal-char {
+  color: #b58900 !important;
+}
+
+.terminal-cursor {
+  /* color: #586e75 !important; */
+  outline: 1px solid #586e75 !important;
+  background-color: transparent !important;
+}
+
+.xterm-rows div {
+  margin-bottom: 0.5rem;
+}
+
+/* Media queries
+====================================== */
+@media only screen and (max-width: 962px) {
+  #toggle_spell_check {
+    margin-top: 0.5rem;
+  }
+}
