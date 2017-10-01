@@ -211,6 +211,13 @@ div.out_prompt_overlay:hover {
 
 /* Terminal background */
 
+.xterm-rows {
+  color: #586e75;
+}
+.xterm-rows div {
+  margin-bottom: 0.5rem;
+}
+
 .terminal-app .terminal .xterm-rows {
   width: 100%;
   background-color: #fdf6e3 !important;
@@ -226,12 +233,12 @@ div.out_prompt_overlay:hover {
 }
 
 /* git checkmark */
-.xterm-color-2 span {
+span.xterm-color-2 {
   color: #859900 !important;
 }
 
 /* git x */
-.xterm-color-1 span {
+span.xterm-color-1 {
   color: #dc322f !important;
 }
 
@@ -241,13 +248,8 @@ div.out_prompt_overlay:hover {
 }
 
 .terminal-cursor {
-  /* color: #586e75 !important; */
   outline: 1px solid #586e75 !important;
   background-color: transparent !important;
-}
-
-.xterm-rows div {
-  margin-bottom: 0.5rem;
 }
 
 /* Media queries
