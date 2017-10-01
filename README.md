@@ -1,4 +1,4 @@
-# Jupyter Notebook Solarized Light Theme
+# Solarized Light Theme for Jupyter Notebook
 
 I created the theme because I'm color blind and I found that my eyes were going tired in about two hours of coding and sometimes feeling pain. After trying many different themes I realized that with the Solarized Light theme I was coding longer hours without pain or feeling tired. The theme itself doesn't make me see better the colors, but rather rest and no pain during coding time.
 
