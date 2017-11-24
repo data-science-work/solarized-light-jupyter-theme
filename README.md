@@ -9,7 +9,7 @@ I created the theme because I'm color blind and I found that my eyes were going 
 To install the theme you need to...
 
 - Create folder `~/.jupyter/custom/`.
-- Create file `~/.jupyter/custom/custom.css`. You can not change folder name or file name. Jupyter is looking for a folder called `custom` and a file called `custom.css`.
+- Create file `~/.jupyter/custom/custom.css`. You can not change folder name or file name. Jupyter is looking for a folder called `custom` and a file called `custom.css`. You can paste the `custom.css` content from the repo into your `custom.css` file you just created, or you can download the file and move it into the `~/.jupyter/custom/` directory you just created.
 
 I have been adding style as I work in different notebooks. I don't know if I have finished styling or something is missing. If you decide to install the theme and you find out that some style is missing, please create a PR or open an issue. 
 
